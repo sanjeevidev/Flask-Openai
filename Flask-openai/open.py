@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import openai
 
 app = Flask(__name__)
-openai.api_key = "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"
+openai.api_key = "__YOUR-OPEN-API-KEY__"
 model_engine = "text-davinci-002"
 
 @app.route("/", methods=["GET", "POST"])
